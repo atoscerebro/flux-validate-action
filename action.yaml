@@ -1,0 +1,12 @@
+name: 'Flux Validate'
+description: 'Validate flux configuration'
+inputs:
+  flux-version:
+    description: 'Flux Version'
+    required: true
+    default: 0.24.0
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.flux-version }}
