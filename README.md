@@ -11,11 +11,11 @@ GitHub Action to validate [Flux](https://fluxcd.io/) config
 ## Example usage
 
 ```yaml
-uses: atoscerebro/flux-validate-action
+uses: atoscerebro/flux-validate-action@v1
 with:
   flux-version: 0.24.0
 ```
 
 ## Credits
 
-The original script is from [flux2-kustomize-helm-example](https://github.com/fluxcd/flux2-kustomize-helm-example/blob/main/scripts/validate.sh) created by the Flux team.
+The original script is from [flux2-kustomize-helm-example](https://github.com/fluxcd/flux2-kustomize-helm-example/blob/e44cdeee52934cb329cc721f07df7d7c69e58ef0/scripts/validate.sh) created by the Flux team.
