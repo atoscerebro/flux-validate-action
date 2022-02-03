@@ -1,6 +1,6 @@
 FROM alpine:3.15
 
-ENV KUSTOMIZE_VER 4.4.1
+ENV KUSTOMIZE_VER 4.5.1
 ENV KUBEVAL_VER 0.16.1
 
 RUN apk --no-cache add bash curl yq
